@@ -1,5 +1,5 @@
 # Daily-byte
-Trying to work through a single problem each day.
+Trying to work through a single problem each day sent by [The Daily Byte](https://thedailybyte.dev/).
 
 Each problem gonna have a `read.me` and an `answer.js` with the answers that I've develop:
 
