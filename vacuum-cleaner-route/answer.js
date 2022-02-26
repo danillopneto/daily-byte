@@ -24,6 +24,10 @@ let wentToOriginalPosition = (movements) => {
   return horizontal === 0 && vertical === 0;
 }
 
-console.log(wentToOriginalPosition('LR'));
-console.log(wentToOriginalPosition('URURD'));
-console.log(wentToOriginalPosition('RUULLDRD'));
+let testAnswer = (answer) => {
+    console.log(answer('LR')); // true
+    console.log(answer('URURD')); // false
+    console.log(answer('RUULLDRD')); // true
+}
+
+testAnswer(wentToOriginalPosition);
