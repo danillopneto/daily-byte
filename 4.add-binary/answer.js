@@ -1,18 +1,20 @@
 let addBinary = (originalBinary, binaryToSum) => {
-  if (binaryToSum == '0') return originalBinary;
+  if (binaryToSum == '0' || binaryToSum == '' || binaryToSum == null) return originalBinary;
 
-  let array = originalBinary.split('').reverse();
-  for (var i = 0; i < array.length; i++) {
-    if (array[i] == '1') {
-      array[i] = '0';
+  if (binaryToSum.length > 1) throw 'It\'s only allowed 1 binary caracter to sum.';
+
+  let newBinary = originalBinary.split('');
+  for (var i = newBinary.length - 1; i >= 0; i--) {
+    if (newBinary[i] == '1') {
+      newBinary[i] = '0';
     } else {
-      array[i] = binaryToSum;
+      newBinary[i] = '1';
       break;
     }
   }
-
-  var result = array.reverse().join('');
-  return parseInt(result) == 0 ? binaryToSum.concat(result) : result;
+  
+  var result = newBinary.join('');
+  return parseInt(result) == 0 ? '1'.concat(result) : result;
 };
 
 let testAnswer = (answer) => {
@@ -23,6 +25,7 @@ let testAnswer = (answer) => {
   console.log(answer('101', '1')); // 110
   console.log(answer('0', '0')); // 0
   console.log(answer('0', '1')); // 1
+  console.log(answer('1', '1')); // 10
 }
 
 testAnswer(addBinary);
