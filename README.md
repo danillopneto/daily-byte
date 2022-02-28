@@ -7,3 +7,4 @@ Each problem gonna have a `read.me` and an `answer.js` with the answers that I'v
 2. **[Vacuum Cleaner Route](https://github.com/danillopneto/daily-byte/tree/master/2.vacuum-cleaner-route)** (2022-02-25)  
 3. **[Correct Capitalization](https://github.com/danillopneto/daily-byte/tree/master/3.correct-capitalization)** (2022-02-26)  
 4. **[Add Binary](https://github.com/danillopneto/daily-byte/tree/master/4.add-binary)** (2022-02-27)  
+5. **[Longest Common Prefix](https://github.com/danillopneto/daily-byte/tree/master/5.longest-common-prefix)** (2022-02-28)  

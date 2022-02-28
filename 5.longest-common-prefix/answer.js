@@ -1,23 +1,21 @@
 let commonPrefix = (words) => {
-  let createPrefixs = (word) => {
-    var prefixs = [];
-    for (var i = 0; i <= word.length; i++) {
-      prefixs.push(word.slice(0, i));
-    }
-
-    return prefixs;
-  };
+  if (words.length == 0) return '';
+  if (words.length == 1) return words[0];
+  
+  let createPrefixs = (word) => word.split('').map((letter, i) => word.slice(0, i + 1));
   var prefixs = words.map(word => createPrefixs(word));
-  var shortest = prefixs.sort()[0];
-  var others = prefixs.slice(1, prefixs.length);
+  var ordered = prefixs.sort();
+  var shortest = ordered[0];
 
   var longestPrefix = '';
+  var allHave = true;
   for (var i = 0; i < shortest.length; i++) {
     var currentPrefix = shortest[i];
-    var allHave = true;
-    for (var o = 0; o < others.length; o++) {
-      if (others[o][i] !== currentPrefix) {
+
+    for (var o = 1; o < ordered.length; o++) {
+      if (ordered[o][i] !== currentPrefix) {
         allHave = false;
+        break;
       }
     }
 
@@ -30,9 +28,11 @@ let commonPrefix = (words) => {
 };
 
 let testAnswer = (answer) => {
-  console.log(answer(["colorado", "colora", "colord"])); // col
+  console.log(answer(["colorado", "color", "cold"])); // col
   console.log(answer(["a", "b", "c"])); // ""
   console.log(answer(["spot", "spotty", "spotted"])); // spot
+  console.log(answer(["geeksforgeeks", "geeks", "geek", "geezer"])); // gee
+  console.log(answer(["apple", "ape", "april"])); // ap
   console.log(answer(["danillo pinheiro", "danillo", "danillo pinheiro neto"])); // danillo
 }
 
