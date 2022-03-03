@@ -15,7 +15,7 @@ let isPalindromeWithRemoval = (word) => {
   return false;
 }
 
-let testResult = (answer) => {
+let testAnswer = (answer) => {
   console.log(answer('abcba')); // true
   console.log(answer('foobof')); // true
   console.log(answer('abccab')); // false
@@ -25,4 +25,4 @@ let testResult = (answer) => {
   console.log(answer('pelpepl')); // false
 }
 
-testResult(isPalindromeWithRemoval);
+testAnswer(isPalindromeWithRemoval);
