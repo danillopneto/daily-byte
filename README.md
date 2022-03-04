@@ -10,3 +10,4 @@ Each problem gonna have a `read.me` and an `answer.js` with the answers that I'v
 5. **[Longest Common Prefix](https://github.com/danillopneto/daily-byte/tree/master/5.longest-common-prefix)** (2022-02-28)  
 6. **[Valid Palindrome With Removal](https://github.com/danillopneto/daily-byte/tree/master/6.valid-palindrome-with-removal)** (2022-03-01)  
 7. **[Two Sum](https://github.com/danillopneto/daily-byte/tree/master/7.two-sum)** (2022-03-02)  
+8. **[Valid Anagram](https://github.com/danillopneto/daily-byte/tree/master/9.valid-anagram)** (2022-03-04)  

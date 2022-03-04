@@ -2,7 +2,7 @@
 
 ## This question is asked by `Amazon`.  
 
-This question is asked by Amazon. Given a string representing your stones and another string representing a list of jewels, return the number of stones that you have that are also jewels.  
+Given a string representing your stones and another string representing a list of jewels, return the number of stones that you have that are also jewels.  
 
 Ex: Given the following jewels and stones...  
 
