@@ -12,3 +12,4 @@ Each problem gonna have a `read.me` and an `answer.js` with the answers that I'v
 7. **[Two Sum](https://github.com/danillopneto/daily-byte/tree/master/7.two-sum)** (2022-03-02)  
 8. **[Valid Anagram](https://github.com/danillopneto/daily-byte/tree/master/9.valid-anagram)** (2022-03-04)  
 9. **[First Unique Character](https://github.com/danillopneto/daily-byte/tree/master/10.first-unique-character)** (2022-03-05)  
+10. **[Spot the Difference](https://github.com/danillopneto/daily-byte/tree/master/11.spot-the-difference)** (2022-03-06)  
