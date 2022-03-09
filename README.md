@@ -15,3 +15,4 @@ Each problem gonna have a `read.me` and an `answer.js` with the answers that I'v
 10. **[First Unique Character](https://github.com/danillopneto/daily-byte/tree/master/10.first-unique-character)** (2022-03-05)  
 11. **[Spot the Difference](https://github.com/danillopneto/daily-byte/tree/master/11.spot-the-difference)** (2022-03-06)  
 12. **[Intersection of Numbers](https://github.com/danillopneto/daily-byte/tree/master/12.intersection-of-numbers)** (2022-03-07)  
+13. **[Uncommon Words](https://github.com/danillopneto/daily-byte/tree/master/13.uncommon-words)** (2022-03-08)  
