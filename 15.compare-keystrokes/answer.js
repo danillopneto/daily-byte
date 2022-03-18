@@ -1,8 +1,8 @@
 let compareKeystrokes = (s, t) => {
   let computeString = word => {
-    var result = '';
-    for (var i = 0; i < word.length; i++) {
-      result = word[i] != '#' ? result + word[i] : result.slice(0, result.length - 1);
+    let result = '';
+    for (let i = 0; i < word.length; i++) {
+      result = word[i] == '#' ? result.slice(0, result.length - 1) : result + word[i];
     }
 
     return result;
