@@ -19,3 +19,4 @@ Each problem gonna have a `read.me` and an `answer.js` with the answers that I'v
 14. **[Validate Characters](https://github.com/danillopneto/daily-byte/tree/master/14.validate-characters)** (2022-03-16)  
 15. **[Compare Keystrokes](https://github.com/danillopneto/daily-byte/tree/master/15.compare-keystrokes)** (2022-03-17)  
 16. **[Remove Adjacent Duplicates](https://github.com/danillopneto/daily-byte/tree/master/16.remove-adjacent-duplicates)** (2022-03-18)  
+17. **[Greater Elements](https://github.com/danillopneto/daily-byte/tree/master/17.greater-elements)** (2022-03-19)  
